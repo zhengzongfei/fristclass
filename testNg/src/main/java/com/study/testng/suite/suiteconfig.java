@@ -5,11 +5,11 @@ import org.testng.annotations.BeforeSuite;
 
 public class suiteconfig {
     @BeforeSuite
-    public void beforeSuit(){
+    public static void beforeSuit(){
         System.out.println("yunxing");
     }
     @AfterSuite
-    public void afterSuit(){
+    public static void afterSuit(){
         System.out.println("yunxing1");
     }
 }
